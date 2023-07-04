@@ -1,0 +1,7 @@
+What is the difference between <figure> tag and <img> tag?
+
+
+	The <figure> and <img> tags serve different purposes in HTML.
+The <img> tag is specifically used to insert an image into an HTML document. It requires the src attribute to specify the path to the image file and typically includes alternative text with the alt attribute to provide a textual description of the image for accessibility purposes. The <img> tag is a standalone element and does not require a closing tag.
+On the other hand, the <figure> tag is used to group and represent self-contained content, often used for images, illustrations, diagrams, code samples, or videos. It provides a semantic container for such content and can include a caption using the <figcaption> tag to provide additional information or context for the content within. The <figure> tag requires a closing tag and should enclose the content it represents.
+By using the <figure> and <figcaption> tags together, you can associate a caption with an image or other media, helping to provide clarity and context for the content. The <figure> element can also be useful for styling purposes or when applying CSS properties specific to grouped content.

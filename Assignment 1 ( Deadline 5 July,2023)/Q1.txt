@@ -1,0 +1,6 @@
+ <!DOCTYPE html> is it a tag of html? If not, what is it and why do we use it?
+
+ 
+	<!DOCTYPE html> is not a tag in HTML; it is called a doctype declaration or doctype for short. The doctype declaration is used to specify the version of HTML or XHTML that the web page is written in.
+The doctype declaration is placed at the very beginning of an HTML document before the <html> tag. It informs the web browser or HTML validator about the version of HTML being used, which helps them understand and render the page correctly.
+In the case of <!DOCTYPE html>, it is the doctype declaration for HTML5, which is the latest version of HTML as of my knowledge cutoff in September 2021. HTML5 introduced new elements, attributes, and APIs to enhance web development and provide better support for multimedia and mobile devices.

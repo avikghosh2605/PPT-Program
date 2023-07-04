@@ -1,0 +1,4 @@
+Explain Semantic tags in html? And why do we need it?
+
+
+	Semantic tags in HTML are elements that provide meaning and structure to the content they enclose. Examples of semantic tags include <header>, <nav>, <article>, <section>, <footer>, and more. They convey the purpose and role of the content to both browsers and developers, making the code more readable and accessible. Semantic tags enhance search engine optimization, assistive technologies, and the overall understanding of the document's structure. By using semantic tags, we can create well-organized, maintainable, and semantically meaningful HTML code, improving the user experience, accessibility, and the ability for search engines to understand and index the content.

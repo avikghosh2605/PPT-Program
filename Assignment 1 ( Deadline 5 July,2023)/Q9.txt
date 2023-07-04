@@ -1,0 +1,14 @@
+What’s the difference between html tag and attribute and give examples of some global attributes?
+
+
+
+In HTML, there is a distinction between HTML tags and attributes.
+An HTML tag is a markup construct that defines the beginning and end of an HTML element. It consists of the tag name enclosed in angle brackets. For example, <p> is the tag for a paragraph element.
+An HTML attribute, on the other hand, provides additional information or modifies the behavior of an HTML element. Attributes are specified within the opening tag of an element and consist of a name-value pair. They provide extra information about the element, such as its appearance, behavior, or functionality. Attributes are used to customize or configure elements.
+Here are examples of some global attributes that can be used with various HTML elements:
+class: Specifies one or more CSS class names to associate with an element.
+id: Specifies a unique identifier for an element.
+style: Defines inline CSS styles for an element.
+title: Provides additional information about an element when hovering over it.
+href: Specifies the URL or destination for links.
+src: Specifies the source URL for external resources like images or scripts.
