@@ -1,0 +1,15 @@
+Difference between absolute and relative and sticky and fixed position explain with example.
+
+
+Absolute Positioning: When an element is set to "position: absolute," it is positioned relative to its nearest positioned ancestor or the initial containing block if no ancestor is positioned.
+Absolute positioning takes the element out of the normal document flow, allowing it to be placed anywhere on the page.
+Example: Let's say we have an HTML structure with a parent container set to "position: relative," and inside it, we have a child element with "position: absolute." The child element's position will be determined by its top, bottom, left, and right property values in relation to its nearest positioned ancestor.
+Relative Positioning: When an element is set to "position: relative," it is positioned relative to its normal position in the document flow.
+Relative positioning does not remove the element from the normal flow; it only shifts the element's position without affecting other elements' layout.
+Example: Suppose we have a paragraph element with "position: relative." We can then use the top, bottom, left, and right properties to shift its position relative to its original position without affecting the surrounding elements.
+Sticky Positioning: Sticky positioning is a hybrid between relative and fixed positioning.
+When an element is set to "position: sticky," it remains in the normal flow until it reaches a specified threshold (usually a certain scroll position) and then behaves like "position: fixed" within its containing block.
+Example: Consider a navigation bar with "position: sticky" and "top: 0." As the user scrolls down the page, the navigation bar will stick to the top of the viewport until it reaches a certain point, at which it will remain fixed even as the user continues scrolling.
+Fixed Positioning: When an element is set to "position: fixed," it is positioned relative to the viewport and remains fixed in that position even when the page is scrolled.
+Fixed positioning takes the element out of the normal flow and can be used for elements like headers, footers, or sidebars that need to remain in a fixed position.
+Example: Suppose we have a button element with "position: fixed" and "bottom: 20px" and "right: 20px." This button will always remain in the same position, 20 pixels from the bottom and 20 pixels from the right of the viewport, regardless of scrolling.
