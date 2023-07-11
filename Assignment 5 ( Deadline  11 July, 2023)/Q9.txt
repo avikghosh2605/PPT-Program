@@ -1,0 +1,13 @@
+Q.9 Explain fetch
+
+In JavaScript, the fetch() method is used to make asynchronous requests to the server and load the information that is returned by the server onto the web pages. 
+
+Syntax: fetch(URL, options); 
+
+Parameters 
+
+The fetch() method accepts the following two parameters.
+
+URL: The URL on which the request is to be made. 
+
+Options: An object which consists of additional properties that can be sent to the server. It is optional.

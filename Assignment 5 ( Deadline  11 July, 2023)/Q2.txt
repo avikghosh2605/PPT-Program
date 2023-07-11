@@ -1,0 +1,4 @@
+Q.2 What are Web Apis ?
+
+
+Application Programming Interfaces (APIs) are building blocks included in programming languages that enable programmers to more quickly design complicated functionality. They remove more difficult code from you and provide simpler syntax in its stead. Consider the electricity supply in your home, apartment, or other residences as a practical illustration. When using an appliance inside your home, you just plug it into a plug socket and it turns on. You don't try to wire it directly into the power source because doing so would be extremely inefficient, challenging, and dangerous to undertake if you are not an electrician. Similar to this, it is much simpler to program 3D graphics using an API written in a higher-level language like JavaScript or Python than it is to attempt to write low-level code (say, C or C++) that directly controls the computer's GPU or other graphics functions.

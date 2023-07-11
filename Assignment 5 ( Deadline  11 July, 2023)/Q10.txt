@@ -1,0 +1,5 @@
+Q.10 How do you define an asynchronous function in JavaScript using async/await?
+
+We all know that JavaScript is synchronous, which means that it contains an event loop that enables you to queue up an action; however, the action won't be executed until the event loop becomes available, which will happen after the code that queued the action has done running. 
+
+However, our application contains a number of functions, one of which is the Async/Await functionality, which makes our code asynchronous. Promises are extended in Async/Await, which the language provides as support. 

@@ -1,0 +1,35 @@
+Callback: A callback is a function that will run automatically following the completion of another function. So, it's also known as "Call after" by some people. Let's implement it in our code and check to see whether it resolves the issue. 
+console.log("Before") function display(value)
+{
+}
+function trip(callback)
+{
+setTimeout
+{
+    function()
+{
+callback("Let's go Star Gazing")
+console.log(value)
+}
+},
+5000
+}
+trip(display) console.log("After")
+
+In contrast to other languages where functions can be sent as arguments to other functions, we are passing the show() function this time to the travel() function. For clarity, I've named the parameter "callback," but you may give it any name; there are no limits.
+
+Callback Hell: Some callbacks also have other callbacks, which generally speaking means that the function we supplied as a callback argument is also calling other functions to run. Imagine that instead of the one callback from the Callback function example above, there are many nested callbacks. The callback can become nested while doing numerous asynchronous activities, which is known as Callback Hell. The issue with this is that they get so complicated that it is difficult to work on them, follow them, and test them.
+
+function1 (args, function()
+{
+function2(args, function()
+{
+function3 (args, function()
+{
+//Pattern continues...
+}
+);
+}
+);
+}
+);
