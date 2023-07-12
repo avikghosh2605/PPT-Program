@@ -1,0 +1,18 @@
+Q.6 Whats Polymorphism and Purpose of it?
+
+
+Polymorphism is a key principle in object-oriented programming that allows objects of different classes to be treated as objects of a common superclass. It refers to the ability of an object to take on multiple forms or to have multiple behaviors. The purpose of polymorphism is to provide flexibility and interchangeability, enabling code to work with different objects in a unified way.
+
+Here are some key points about polymorphism:
+
+Method Overriding: Polymorphism is often achieved through method overriding, where a subclass provides its own implementation of a method that is already defined in its superclass. The overridden method in the subclass is invoked when the method is called on an object of the subclass, even if the reference type is that of the superclass.
+
+Common Interface: Polymorphism relies on the concept of a common interface, which is defined by a superclass or an interface. Objects of different classes that implement the same interface can be used interchangeably, allowing for more flexible and modular code.
+
+Dynamic Binding: Polymorphism involves dynamic binding, also known as late binding or runtime binding. The specific implementation of a method is determined at runtime based on the actual type of the object rather than the reference type.
+
+Method Overloading: Polymorphism is also achieved through method overloading, where multiple methods with the same name but different parameter lists exist within the same class or class hierarchy. The appropriate method is selected based on the number, types, and order of the arguments passed during method invocation.
+
+Code Reusability and Extensibility: Polymorphism promotes code reusability by allowing objects of different classes to be treated uniformly. It enables the creation of generic code that can work with various objects that share a common interface. Polymorphism also facilitates extensibility, as new classes can be added to the system without requiring changes to the existing code that uses the common interface.
+
+Flexibility and Adaptability: Polymorphism provides flexibility and adaptability in software development. It allows for easy substitution of objects, making it simpler to modify or extend code without impacting the rest of the system. Polymorphism makes it easier to write modular and reusable code that can adapt to changing requirements.

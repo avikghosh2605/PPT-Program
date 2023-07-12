@@ -1,0 +1,17 @@
+Q.5 Whats Abstraction and Its Purpose?
+
+
+Abstraction is a fundamental concept in object-oriented programming that focuses on representing the essential features of an object while hiding the unnecessary details. It involves creating abstract classes or interfaces that define a common interface for a set of related objects, without providing implementation details.
+The purpose of abstraction is to simplify complex systems by providing a high-level view and reducing dependencies. Here are some key points about abstraction:
+
+Simplification and Modularity: Abstraction allows you to focus on the essential aspects of an object or system while hiding the complexity. It provides a simplified representation by filtering out irrelevant details. This simplification improves code organization and modularity, making it easier to understand, maintain, and extend the system.
+
+Data and Behavior Separation: Abstraction separates the interface (methods or operations) from the implementation (how those methods are executed). It defines a contract that specifies what the object can do (methods or operations it provides) without revealing how it is implemented. This separation allows for flexibility in changing the implementation details without affecting the code that uses the object.
+
+Code Reusability: Abstract classes and interfaces provide a blueprint for creating concrete classes. By defining common interfaces, abstraction enables code reusability. Concrete classes can implement the same abstract interface, allowing them to be used interchangeably. This promotes modular design and reduces code duplication.
+
+Focus on Essential Details: Abstraction helps to identify and focus on the essential attributes and behaviors of an object or system, while hiding unnecessary or low-level implementation details. It provides a higher-level view of the system, making it easier to understand and reason about.
+
+Encapsulation and Information Hiding: Abstraction is closely related to encapsulation. By defining abstract interfaces, it allows for encapsulation of data and methods within objects. The internal details of an object are hidden from external entities, promoting information hiding and reducing dependencies.
+
+Facilitates Design and Implementation: Abstraction is an important tool for the design and implementation of complex systems. It allows for a modular approach, where each component can be designed independently and then integrated through their abstract interfaces. This simplifies the overall design process and facilitates parallel development by different team members.

@@ -1,0 +1,18 @@
+Q.8 Whats Encapsulation and Purpose of it ?
+
+
+Encapsulation is a fundamental principle in object-oriented programming that combines data and the methods (or behaviors) that operate on that data into a single unit called an object. It involves bundling the data and related methods together, and providing controlled access to the internal state of an object. The purpose of encapsulation is to hide the internal details of an object, protect its integrity, and provide well-defined interfaces for interacting with the object.
+
+Here are some key points about encapsulation:
+
+Data Hiding: Encapsulation hides the internal state of an object from direct access by other objects or code. The internal data is typically declared as private or protected, preventing external entities from modifying it directly. This protects the integrity and consistency of the object's data.
+
+Access Modifiers: Access modifiers, such as private, protected, and public, are used to control the visibility and accessibility of data members and methods within a class. By specifying access levels, encapsulation defines how the data and behaviors of an object can be accessed and modified by other code.
+
+Data Access through Methods: Encapsulation encourages accessing and modifying the object's data through methods, also known as getters and setters or accessors and mutators. These methods provide a controlled interface for interacting with the object's data, allowing validation, encapsulated logic, and maintaining consistency.
+
+Information Hiding: Encapsulation promotes information hiding, which means that the internal implementation details of an object are hidden from other objects. Only the necessary and relevant information is exposed through the defined interfaces. This reduces dependencies and improves maintainability by minimizing the impact of changes to the internal implementation.
+
+Code Modularity and Reusability: Encapsulation contributes to code modularity and reusability by grouping related data and behaviors into self-contained objects. Objects can be treated as black boxes, where their internal implementation details can be changed without affecting the code that uses the object, as long as the defined interfaces remain the same.
+
+Enhances Security and Integrity: Encapsulation provides a level of security by controlling access to the internal data and allowing only authorized operations through defined methods. It helps prevent unintended modifications and ensures the object's integrity by enforcing data validation and encapsulated logic.

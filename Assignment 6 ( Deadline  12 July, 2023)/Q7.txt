@@ -1,0 +1,18 @@
+Q.7 Whats Inheritance and Purpose of it?
+
+
+Inheritance is a fundamental concept in object-oriented programming that allows for the creation of new classes (derived or child classes) from existing classes (base or parent classes). The derived class inherits the properties, methods, and behaviors of the base class, and can also add or modify its own specific features. The purpose of inheritance is to promote code reuse, facilitate code organization, and support the creation of class hierarchies.
+
+Here are some key points about inheritance:
+
+Code Reusability: Inheritance allows you to reuse code from existing classes. The derived class inherits the attributes and behaviors of the base class, eliminating the need to redefine common features. This promotes code reuse, reduces redundancy, and improves maintainability.
+
+Class Hierarchy: Inheritance enables the creation of class hierarchies, where classes are organized in a parent-child relationship. The base class acts as a general or abstract class, while the derived classes specialize or extend its functionality. This hierarchical structure allows for the categorization and organization of related classes.
+
+Extensibility: Derived classes can add new attributes, methods, and behaviors to the ones inherited from the base class. This allows for the extension of the existing functionality, as well as the customization of behavior to suit specific requirements. Inheritance supports incremental development and facilitates adapting the code to changing needs.
+
+Method Overriding: Inheritance involves the concept of method overriding, where a derived class provides its own implementation of a method inherited from the base class. This allows for the modification or specialization of behavior in the derived class. The overridden method in the derived class is invoked instead of the base class implementation when called on objects of the derived class.
+
+Inheritance and Polymorphism: Inheritance is closely related to polymorphism. Objects of derived classes can be treated as objects of the base class, allowing for polymorphic behavior. This means that an object of the derived class can be used wherever an object of the base class is expected, enabling flexibility and interchangeability.
+
+Inheritance Relationships: Inheritance relationships can be classified as single inheritance (a derived class inherits from a single base class) or multiple inheritance (a derived class inherits from multiple base classes). Some languages, like Java, support single inheritance, while others, like C++, support multiple inheritance.

@@ -1,0 +1,18 @@
+Q.9 Explain Class in JavaScript?
+
+
+In JavaScript, a class is a blueprint or template for creating objects that share common properties and behaviors. It is a way to define a custom data type that encapsulates data and the related functions (methods) that operate on that data. Classes provide a means to create multiple instances (objects) with similar characteristics.
+
+Here are some key points about classes in JavaScript:
+
+Class Definition: A class is defined using the class keyword followed by the class name. Inside the class definition, you can declare properties and methods that define the behavior and characteristics of objects created from the class.
+
+Constructor Method: The constructor method is a special method within a class that is executed when a new object is created from the class. It is denoted by the constructor keyword and is responsible for initializing the object's properties. The constructor method is optional, and if not defined, a default constructor is automatically created.
+
+Properties: Properties are variables associated with an object and represent its state or characteristics. Within a class, properties can be declared using variables or using the new class field syntax introduced in recent versions of JavaScript.
+
+Methods: Methods are functions associated with a class that define the behavior of objects created from the class. They can be defined within the class using regular function syntax or using the new method syntax introduced in recent JavaScript versions. Methods can access the object's properties and perform operations on them.
+
+Inheritance: JavaScript supports class inheritance, where a derived class can inherit properties and methods from a base (parent) class. The extends keyword is used to create a class that inherits from another class. The derived class can override inherited methods or add new methods and properties.
+
+Object Instances: To create an object instance from a class, the new keyword is used followed by the class name and any necessary arguments to the constructor method. This creates a new object with its properties and methods defined by the class.

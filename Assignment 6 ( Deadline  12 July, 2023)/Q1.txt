@@ -1,0 +1,18 @@
+Q.1 What’s Constructor And Its Purpose?
+
+
+In computer programming, a constructor is a special method or function within a class that is responsible for initializing the objects of that class. It is called automatically when an object is created from the class. The purpose of a constructor is to ensure that the object being created starts with a valid and well-defined state.
+
+Here are some key points about constructors:
+
+Initialization: Constructors initialize the data members of an object to their initial values. It sets the initial state of the object and prepares it for use.
+
+Same name as the class: Constructors have the same name as the class they belong to. This allows them to be automatically called when an object is instantiated.
+
+No return type: Constructors do not have a return type, not even void. They are implicitly invoked and do not return any value explicitly.
+
+Overloading: Constructors can be overloaded, which means a class can have multiple constructors with different parameter lists. This allows objects to be created with different initializations.
+
+Default constructor: If a class does not define any constructors explicitly, a default constructor is automatically provided. It initializes the object with default values (zero, null, or false) or the default constructors of its member variables.
+
+Initialization order: In object-oriented languages, constructors also help in initializing the base class before initializing the derived class.

@@ -1,0 +1,64 @@
+Q.3 What’s Call Apply Bind Method & Difference Between them
+
+
+In JavaScript, the "call," "apply," and "bind" methods are used to manipulate the context and execution of functions. They are often used to borrow or set the value of "this" within a function. While they have similarities, there are some differences in how they are used.
+
+call(): The "call" method is a built-in JavaScript function method that allows you to call a function with a specified "this" value and arguments provided individually. It takes the "this" value as the first argument, followed by any additional arguments as separate parameters.
+
+Syntax: function.call(thisValue, arg1, arg2, ...)
+
+
+
+Example:
+
+function greet(name) {
+  console.log(`Hello, ${name}! I'm ${this.name}.`);
+}
+
+const person = { name: 'John' };
+greet.call(person, 'Alice');
+// Output: Hello, Alice! I'm John.
+
+
+apply(): The "apply" method is similar to "call" but accepts the "this" value and arguments as an array. It allows you to call a function with a specified "this" value and an array or array-like object as the argument list.
+
+Syntax: function.apply(thisValue, [arg1, arg2, ...])
+
+Example:
+
+javascript
+Copy code
+function greet(name) {
+  console.log(`Hello, ${name}! I'm ${this.name}.`);
+}
+
+const person = { name: 'John' };
+greet.apply(person, ['Alice']);
+// Output: Hello, Alice! I'm John.
+
+
+
+
+bind(): The "bind" method creates a new function with a specified "this" value and any initial arguments provided. It allows you to permanently bind a function to a particular object, creating a new function that can be invoked later.
+
+Syntax: function.bind(thisValue, arg1, arg2, ...)
+
+Example:
+
+function greet(name) {
+  console.log(`Hello, ${name}! I'm ${this.name}.`);
+}
+
+const person = { name: 'John' };
+const boundGreet = greet.bind(person, 'Alice');
+boundGreet();
+// Output: Hello, Alice! I'm John.
+
+
+
+
+Differences:
+
+The "call" and "apply" methods are used for immediate function invocation, whereas "bind" returns a new function that can be invoked later.
+"call" and "apply" accept the "this" value and arguments directly or as an array, respectively, while "bind" accepts the "this" value and arguments to be bound to the function.
+With "call" and "apply," you specify the arguments individually or in an array-like object. In "bind," you provide the arguments directly when creating the bound function.
